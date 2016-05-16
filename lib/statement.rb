@@ -1,10 +1,9 @@
 
 class Statement
 
-	attr_reader :balance, :transactions
+	attr_reader :transactions
 
 	def initialize
-		@balance = 0
 		@transactions = Array.new
 	end
 
@@ -12,8 +11,6 @@ class Statement
 		@transactions << transaction
 	end
 
-	def update_balance(amount)
-		@balance += amount
-	end
+
 
 end
