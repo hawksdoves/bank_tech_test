@@ -71,8 +71,6 @@ class Bank
 		transaction.credit === 0 ? -transaction.debit : transaction.credit
 	end
 
-	
-
 	def display(boolean, index)
 		if (!boolean && index === 0)
 			0
