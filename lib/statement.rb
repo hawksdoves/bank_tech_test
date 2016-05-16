@@ -12,4 +12,8 @@ class Statement
 		@transactions << transaction
 	end
 
+	def update_balance(amount)
+		@balance += amount
+	end
+
 end
